@@ -1,0 +1,29 @@
+# Database files
+*.db
+*.sqlite
+*.sql~
+
+# Backup files
+*.bak
+*.backup
+*.dump
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (NEVER commit these!)
+**/credentials.txt
+**/passwords.txt
+**/config.ini
+**/.env
+
+# Logs
+*.log
+logs/
